@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+     min-height: 100vh;
+     background-color: rgb(67, 67, 183);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .generate-container{
+     width: 400px;
+     padding: 30px 20px;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(30, 30, 105);
+     color: white;
+ }
+ h1{
+     margin-bottom: 20px;
+ }
+ .input-container{
+     width: 100%;
+     position: relative;
+     margin-bottom: 20px;
+ }
+ .input-container input{
+     width: 100%;
+     padding: 15px 10px;
+     background-color: rgb(16, 16, 60);
+     border: none;
+     border-radius: 5px;
+     color: white;
+     outline: none;
+     font-size: 16px;
+ }
+ .icon{
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     background-color: rgb(67, 67, 183);
+     padding: 5px;
+     box-sizing: content-box;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+ .condition-input-container{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin: 15px;
+     font-size: 1.5rem;
+ }
+ .condition-input-container label{
+     cursor: pointer;
+ }
+ .input{
+     margin-left: auto;
+     max-width: 50px;
+ }
+ button{
+     width: 100%;
+     padding: 15px;
+     color: white;
+     margin-top: 15px;
+     border-radius: 5px;
+     border: 3px solid rgb(68, 145, 233);
+     background-color: rgb(67, 67, 183);
+     cursor: pointer;
+     text-transform: uppercase;
+     font-weight: 700;
+     transition: 0.4s;
+ }
